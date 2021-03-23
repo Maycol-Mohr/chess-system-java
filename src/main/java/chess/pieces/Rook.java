@@ -24,5 +24,12 @@ public String toString() {
     return "R";
 }
 
+@Override
+    public boolean[][] possibleMoves() {
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()]; 
+        return mat;    
+    }
+
      
 }

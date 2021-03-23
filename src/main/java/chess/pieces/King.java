@@ -23,5 +23,12 @@ public class King extends ChessPiece{
     public String toString() {
         return "K";
     } 
+
+    @Override
+    public boolean[][] possibleMoves() {
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()]; 
+        return mat;    
+    }
     
 }
